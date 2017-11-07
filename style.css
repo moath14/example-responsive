@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.team h1 {
+    line-height: 100px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team .person {
+    width: 23%;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1%;
+    border: 1px solid
+}
+
+.team .person .photo {
+    width: 250px;
+    height: 250px;
+    padding: 0 0 10px 0;
+}
+
+.team .person .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.team .person .name {}
+
+.team .person .name h3,
+.team .person .name p {
+    line-height: 30px;
+}
+
+.team .person .info {
+    padding: 10px 0 0 0;
+}
+
+@media(min-width:348px) {
+    .team {
+        text-align: center
+    }
+    .team .person {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .team .person .photo {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    .team .person .photo img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width:500px) {
+    .team {
+        text-align: center;
+    }
+    .team .person {
+        width: 48%;
+    }
+    .team .person .photo {
+
+        margin: auto
+    }
+
+}
+
+@media(min-width:775px) {
+    .team {
+        text-align: center;
+    }
+    .team .person {
+        width: 35%;
+    }
+    .team .person .photo {
+
+        margin: auto
+    }
+
+}
+
+@media(min-width:975px) {
+    .team {
+        text-align: center;
+    }
+    .team .person {
+        width: 23%;
+    }
+    .team .person .photo {
+
+        margin: auto
+    }
+ 
+}
